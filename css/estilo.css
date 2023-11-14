@@ -1,0 +1,378 @@
+
+
+@font-face {
+    font-family: "Urbanist";
+    src: url(/fuentes/Urbanist/static/Urbanist-Medium.ttf);
+    font-weight:medium;
+    font-style: medium;
+}
+
+
+/*HEADER*/
+
+header{
+    font-family: "Urbanist";
+    font-weight: bold;
+    background-color: rgb(77, 116, 77);
+    position: sticky; 
+    top: 0px;
+ }
+
+.logo{
+  cursor: pointer;
+  width:14%;
+}
+@media (max-width: 768px){
+    .logo{ display: none;}
+}
+
+li {
+    list-style: none;
+    font-size: 1rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #f79e45f7;}
+
+ .nav-link.active{
+        color: #f6a350f7; }
+
+
+/*BODY*/
+
+body{
+    background-color: rgb(244, 248, 246);
+}
+
+/*FOOTER*/
+
+footer{
+    height:10%;
+    width: 100%;
+    font-family: "urbanist";
+    padding: 16px 10%;    
+}
+.fondo{
+    background-color:rgb(77, 116, 77);  
+}
+.fuente{
+    font-size: 1rem;
+}
+.onda{
+    font-size: 1rem;
+    text-align: center;
+    color: darkgrey;
+}
+
+.logoig{
+   width: 30px;
+cursor: pointer
+}
+
+.logoface{
+    width: 30px;
+    cursor: pointer   
+}
+
+
+/*HOME main, section: Home*/
+
+.fotohome{
+    width: 100%;
+    /*object-fit: contain;*/
+    }
+
+.tarjeton{
+   background-color: rgb(77, 116, 77);
+   margin-top: -7%;
+   width: 90%;
+   margin-left: 3%;
+}
+
+
+h1.card-title{
+    color: whitesmoke;
+    padding: 14% 3% 6% 3%;
+    margin-top: -25px;
+}
+
+
+h2.card-subtitle{
+    color: whitesmoke;
+    padding-bottom: 6%;
+}
+
+h3.titulo{
+    margin-left:6% ;
+    margin-top: 15%;
+}
+
+h1{
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;  
+    font-size:4rem;
+    font-family:"Urbanist";
+}
+
+@media (max-width:768px){
+    h1{ font-size: 3rem;}
+}
+
+h2{
+    display: flex;
+    justify-content: center; 
+    margin-top: -2rem;
+    font-size: 2.5rem;
+    font-family: "Urbanist";
+}
+
+@media (max-width:768px){
+    h2{ font-size: 1.5rem;}
+}
+
+p{
+    text-align: left;
+    font-family: "Urbanist";
+    font-style: normal;
+    font-size: 1rem;
+    padding: 5%;
+    line-height: 1.8rem;
+    margin-bottom: 6rem;
+}
+
+@media (max-width:768px){
+    p{ margin-bottom: -1rem;}}
+
+.toque{
+    font-style: italic;
+}
+
+.kokeorigen{
+    width: 100%;
+    height: 538px;
+    width: 782px;
+    padding: 3%;
+    object-fit: contain;
+}
+@media (max-width:768px){
+    .kokeorigen{padding-top: 0%;
+    height: 427px;}}
+
+-------------------------------------------------------
+
+/*CUIDADOS: section:Cuidados*/
+
+h2 .sub{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+   font-family: "Urbanist";  
+   padding:6% 2% 2% 2%; 
+   margin-bottom: 2rem;
+   margin-top: 2rem;
+}
+
+
+.pasos{
+    background-color: coral;
+    display: flex;
+    justify-content:space-around;   
+}
+
+.card2{
+    padding: 1%;
+    margin: 1%2;
+}
+
+.card-body2{
+    text-align: center;
+}
+
+.card-title2{
+    color: crimson;
+    font-weight: bold;
+}
+
+.card-text2{
+    text-align: center;
+}
+.toque1{
+    color: crimson;    
+}
+
+
+.especies{
+    height: 518px;
+    width: 1163px;
+    padding-top: 4%;
+    padding-left: 3%;
+}
+
+
+h4{
+    font-family: "Urbanist";
+}
+
+.textColor{
+    padding-left: 0.5%;
+    color: crimson;
+    text-decoration: underline;
+}
+
+.tip{
+    padding: 2%;
+    margin-left: 0%;
+    margin-top: 3%;
+    margin-bottom: -3%;
+}
+
+.video{
+    margin-left: 2%;
+}
+
+-------------------------------------------------
+
+/*TALLER section:taller*/
+
+h1.aprende{
+    font-size:3rem;
+}
+@media (max-width:768px){
+    h1.aprende{font-size: 2rem;}
+}
+
+.taller{
+    height: 187px;
+    margin-right: 4%;
+    margin-left: 2%;
+}
+
+.tarjeton2{
+    background-color: rgb(88, 143, 77);
+    border-radius: 4px;
+    width: 90%;
+    margin:auto;
+ }
+
+ p.pt{
+    color: whitesmoke;
+    text-align: left;
+    font-family: "Urbanist";
+    font-style: normal;
+    font-size: 1.2rem;
+    padding: 5%;
+    line-height: 1.8rem; 
+ }
+
+ .informacion{
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+ }
+
+.t-taller{
+    padding: 6%;
+    font-size: 2rem;
+    
+}
+
+ .card1{
+    padding: 4%;
+ }
+
+
+ .card-img-top{
+    height: 180px;
+    width: 286px;
+ }
+ 
+
+ .botonTaller{
+    padding: 5%; 
+ }
+
+ .btn{
+    background-color: #f09f1d;
+    cursor: pointer;
+    text-transform: uppercase;   
+    font-weight: bold;  
+ }
+
+
+
+ /*GALERIA*/
+ 
+.t-galeria{
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+.galeria{
+    margin-bottom: 4%;
+}
+
+********************************
+
+/* CONTACTO form*/
+
+form{
+    width: 50%;
+    background-color: rgb(107, 154, 119);
+    margin-top: 5%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    padding: 1% 3%;
+    border-radius: 5px;
+    font-family: "Urbanist";
+    font-size: 1rem;
+    color: whitesmoke;
+    }
+    
+    input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: solid 1px #f5f769;
+    margin-bottom: 10px;
+    }
+    
+    label{
+    margin: 0.9  rem 0 0.5rem 0;
+    font-weight: 100;
+    color: whitesmoke;
+    }
+
+  .espaciomensaje{
+    height: 200px;
+    width: 838px;
+    }
+    
+ .botones{
+     width: 50%;
+     padding: 1%;
+     margin-left: 37%;
+    }
+
+    input[type="submit"]{	
+    width: 50%;
+    padding: 1rem;
+    background-color:#f5f769;
+    font-weight: 800;
+    color: black;
+    }
+
+    input[type="reset"]{
+        width: 50%;
+        padding: 1rem;
+        background-color:#f5f769;  
+        font-weight: 800; 
+        color: black;
+    }
+
+    .espaciomensaje{
+        border-radius: 5px;
+        border: solid 1px #f5f769;
+
+    }
+
+
+    
