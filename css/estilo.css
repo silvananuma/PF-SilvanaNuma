@@ -337,22 +337,32 @@ form{
     }
     
     input {
-    width: 100%;
+  width: 641px;
     padding: 0.5rem;
     border-radius: 5px;
     border: solid 1px #f5f769;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
     
     label{
+    width:641px ;
     margin: 0.9  rem 0 0.5rem 0;
     font-weight: 100;
     color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
 
   .espaciomensaje{
     height: 200px;
-    width: 838px;
+    width: 641px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
     
  .botones{
