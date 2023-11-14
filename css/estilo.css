@@ -216,17 +216,6 @@ align-items: center;
 padding:3% ;
 }
 
-.especies{
-    height: 518px;
-    width: 1163px;
-    padding-top: 4%;
-    padding-left: 3%;
-}
-
-
-h4{
-    font-family: "Urbanist";
-}
 
 .textColor{
     padding-left: 0.5%;
@@ -241,10 +230,9 @@ h4{
     margin-bottom: -3%;
 }
 
-.video{
-    margin-left: 2%;
+.pctip{
+ margin-bottom: 1%;   
 }
-
 -------------------------------------------------
 
 /*TALLER section:taller*/
@@ -256,12 +244,17 @@ h1.aprende{
     h1.aprende{font-size: 2rem;}
 }
 
+
 .taller{
     height: 187px;
     margin-right: 4%;
     margin-left: 2%;
 }
 
+.tutoque{
+    color: #f09f1d;
+    padding-right: 1%;
+}
 .tarjeton2{
     background-color: rgb(88, 143, 77);
     border-radius: 4px;
