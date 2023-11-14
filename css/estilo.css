@@ -162,6 +162,11 @@ p{
 
 /*CUIDADOS: section:Cuidados*/
 
+h1.cuidados{
+    margin-top: 4rem;
+    margin-bottom: 4.5rem;
+}
+
 h2 .sub{
     display: flex;
     justify-content: center;
@@ -172,6 +177,11 @@ h2 .sub{
    margin-top: 2rem;
 }
 
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .pasos{
     background-color: coral;
@@ -200,6 +210,11 @@ h2 .sub{
     color: crimson;    
 }
 
+.card-img-top-c{
+width: 100%;
+align-items: center;
+padding:3% ;
+}
 
 .especies{
     height: 518px;
