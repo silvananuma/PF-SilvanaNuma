@@ -94,13 +94,11 @@ cursor: pointer
         }
 }
 
-
 h1.card-title{
     color: whitesmoke;
     padding: 14% 3% 6% 3%;
     margin-top: -25px;
 }
-
 
 h2.card-subtitle{
     color: whitesmoke;
@@ -111,6 +109,10 @@ h3.titulo{
     margin-left:6% ;
     margin-top: 15%;
 }
+@media (max-width:768px){
+    h3.titulo{ margin-top:5%;}
+}
+
 
 h1{
     padding-top: 3%;
@@ -168,17 +170,18 @@ p{
 }
 @media (max-width:768px){
     .kokeorigen{
+        width: 100%;
+        padding: 0%;
         margin: auto;  
     }
 }
 @media (max-width:600px){
     .kokeorigen{ 
         width: 100%;
-        padding-top: 0%;
+        padding: 0%;
     }
 }
 
--------------------------------------------------------
 
 /*CUIDADOS: section:Cuidados*/
 
@@ -209,6 +212,11 @@ h2 .sub{
     justify-content:space-around;   
 }
 
+@media (max-width:768px){
+    h1.cespecial{
+        margin: auto;}
+    }
+
 .card2{
     padding: 1%;
     margin: 1%2;
@@ -231,9 +239,9 @@ h2 .sub{
 }
 
 .card-img-top-c{
-width: 100%;
-align-items: center;
-padding:3% ;
+    width: 100%;
+    align-items: center;
+    padding:3% ;
 }
 
 
@@ -256,7 +264,7 @@ padding:3% ;
 .pctip{
  margin-bottom: 1%;   
 }
--------------------------------------------------
+
 
 /*TALLER section:taller*/
 
@@ -267,6 +275,26 @@ h1.aprende{
     h1.aprende{font-size: 2rem;}
 }
 
+@media (max-width:600px){
+    h1.aprende{ 
+        font-size: 1.5rem;}
+}
+
+.t-taller{
+    padding: 6%;
+    font-size: 2rem;   
+}
+
+@media (max-width:768px){
+    .t-taller{ 
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:600px){
+    .t-taller{ 
+        font-size: 1.3rem;
+        margin: auto;}
+}
 
 .taller{
     height: 187px;
@@ -278,6 +306,18 @@ h1.aprende{
     color: #f09f1d;
     padding-right: 1%;
 }
+
+@media (max-width:768px){
+    .tutoque{ 
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:600px){
+    .tutoque{ 
+        font-size: 1.3rem;
+        margin: auto}
+}
+
 .tarjeton2{
     background-color: rgb(88, 143, 77);
     border-radius: 4px;
@@ -295,34 +335,35 @@ h1.aprende{
     line-height: 1.8rem; 
  }
 
+ @media (max-width:768px){
+    p.pt{ 
+        font-size: 1rem;}
+}
+
  .informacion{
     display: flex;
     justify-content: center;
     padding: 4%;
  }
 
-.t-taller{
-    padding: 6%;
-    font-size: 2rem;   
-}
-
-@media (max-width:768px){
-    .t-taller{ 
-        font-size: 1.5rem;
-    }
-}
-
-
  .card1{
     padding: 4%;
  }
-
+@media (max-width:768px){
+    .card1{
+        margin: auto;
+    }
+}
 
  .card-img-top{
     height: 180px;
     width: 286px;
  }
  
+ @media (max-width:768px){
+    .card-img-top{
+        margin: auto;
+    }
 
  .botonTaller{
     padding: 5%; 
@@ -336,7 +377,6 @@ h1.aprende{
  }
 
 
-
  /*GALERIA*/
  
 .t-galeria{
@@ -347,10 +387,13 @@ h1.aprende{
     margin-bottom: 4%;
 }
 
-********************************
+.fotos{
+    border-radius: 20px;
+
+}
+
 
 /* CONTACTO form*/
-
 
 form{
     width: 50%;
@@ -366,7 +409,7 @@ form{
     }
     
     input {
-  width: 641px;
+    width: 641px;
     padding: 0.5rem;
     border-radius: 5px;
     border: solid 1px #f5f769;
@@ -400,6 +443,11 @@ form{
      margin-left: 37%;
     }
 
+.espaciomensaje{
+     border-radius: 5px;
+    border: solid 1px #f5f769; 
+    }
+
     input[type="submit"]{	
     width: 50%;
     padding: 1rem;
@@ -415,12 +463,3 @@ form{
         font-weight: 800; 
         color: black;
     }
-
-    .espaciomensaje{
-        border-radius: 5px;
-        border: solid 1px #f5f769;
-
-    }
-
-
-    
