@@ -74,7 +74,7 @@ cursor: pointer
 }
 
 
-/*HOME main, section: Home*/
+/*HOME*/
 
 .fotohome{
     width: 100%;
@@ -195,21 +195,16 @@ p{
 }
 
 
-/*CUIDADOS: section:Cuidados*/
+/*CUIDADOS*/
 
 h1.cuidados{
     margin-top: 4rem;
-    margin-bottom: 4.5rem;
+    margin-bottom: 0rem;
 }
-
-h2 .sub{
-    display: flex;
-    justify-content: center;
-    font-size: 1rem;
-   font-family: "Urbanist";  
-   padding:6% 2% 2% 2%; 
-   margin-bottom: 2rem;
-   margin-top: 2rem;
+@media(max-width:480px){
+    h1.cuidados{
+        font-size: 1.5rem;      
+    } 
 }
 
 .row{
@@ -218,11 +213,6 @@ h2 .sub{
     align-items: center;
 }
 
-.pasos{
-    background-color: coral;
-    display: flex;
-    justify-content:space-around;   
-}
 
 @media (max-width:768px){
     h1.cespecial{
