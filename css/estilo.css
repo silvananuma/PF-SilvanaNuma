@@ -309,9 +309,7 @@ h1.aprende{
 @media (max-width:768px){
     .t-taller{ font-size: 1.5rem;}
 }
-@media (max-width:600px){
-    .t-taller{ font-size: 1rem;}
-}
+
 
  .card1{
     padding: 4%;
