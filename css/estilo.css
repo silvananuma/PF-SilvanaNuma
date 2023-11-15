@@ -307,7 +307,9 @@ h1.aprende{
 }
 
 @media (max-width:768px){
-    .t-taller{ font-size: 1.5rem;}
+    .t-taller{ 
+        font-size: 1.5rem;
+    }
 }
 
 
