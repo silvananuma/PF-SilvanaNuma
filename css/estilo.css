@@ -1,5 +1,5 @@
 *{
-    margin: 0%; padding: 0%git ;
+    margin: 0%; padding: 0%;
 }
 
 @font-face{
@@ -291,6 +291,12 @@ h1.aprende{
 @media (max-width:600px){
     .t-taller{ 
         font-size: 1.3rem;
+        margin: auto;}
+}
+
+@media (max-width:320px){
+    .t-taller{ 
+        font-size: 1rem;
         margin: auto;}
 }
 
