@@ -20,13 +20,17 @@ header{
     position: sticky; 
     top: 0px;
  }
+/*
+.container-Logo{
+    flex-wrap: initial !important;
+}*/
 
 .logo{
   cursor: pointer;
   width:14%;
 }
 @media (max-width: 768px){
-    .logo{ display: none;}
+    .logo{ display: flex;}
 }
 
 li {
@@ -131,8 +135,9 @@ h3.titulo{
 
 h1{
     padding-top: 3%;
-    display: flex;
-    justify-content: center;  
+    /*display: flex;
+    justify-content: center;  */
+    text-align: center;
     font-size:4rem;
     font-family:"Urbanist";
 }
@@ -145,8 +150,9 @@ h1{
 }
 
 h2{
-    display: flex;
-    justify-content: center; 
+    /*display: flex;
+    justify-content: center; */
+    text-align: center;
     margin-top: -2rem;
     font-size: 2.5rem;
     font-family: "Urbanist";
@@ -285,21 +291,29 @@ h1.aprende{
     font-size: 2rem;   
 }
 
+h2 .t-taller{
+    display: none;
+    align-items: center;
+}
+
 @media (max-width:768px){
     .t-taller{ 
         font-size: 1.5rem;
     }
+        
 }
 @media (max-width:600px){
     .t-taller{ 
         font-size: 1.3rem;
         margin: auto;}
+        
 }
 
 @media (max-width:320px){
     .t-taller{ 
         font-size: 1rem;
         margin: auto;}
+        
 }
 
 .taller{
@@ -394,7 +408,9 @@ h1.aprende{
     margin-bottom: 4%;
 }
 
-
+.galeria img{
+    border-radius: 5px;
+}
 /* CONTACTO*/
 
 h4{
