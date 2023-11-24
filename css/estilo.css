@@ -20,18 +20,19 @@ header{
     position: sticky; 
     top: 0px;
  }
-/*
-.container-Logo{
-    flex-wrap: initial !important;
-}*/
 
 .logo{
   cursor: pointer;
   width:14%;
 }
 @media (max-width: 768px){
-    .logo{ display: flex;}
-}
+    .logo{ width: 20%;}
+    .container{ flex-wrap: initial !important;}
+    }
+    @media (max-width: 320px){
+        .logo{ width: 25%;}
+        .container{ flex-wrap: initial !important;}
+        }
 
 li {
     list-style: none;
