@@ -30,7 +30,7 @@ header{
     .container{ flex-wrap: initial !important;}
     }
     @media (max-width: 320px){
-        .logo{ width: 25%;}
+        .logo{ width: 30%;}
         .container{ flex-wrap: initial !important;}
         }
 
@@ -65,15 +65,10 @@ footer{
 .fuente{
     font-size: 1rem;
 }
-.onda{
-    font-size: 1rem;
-    text-align: center;
-    color: darkgrey;
-}
 
 .logoig{
    width: 30px;
-cursor: pointer
+   cursor: pointer
 }
 
 .logoface{
@@ -187,7 +182,6 @@ p{
 .kokeorigen{
     width: 100%;
     height: 538px;
-    width: 782px;
     padding: 3%;
     object-fit: contain;
 }
@@ -195,6 +189,7 @@ p{
     .kokeorigen{ 
         width: 100%;
         padding: 0%;
+        height: 269px;
     }
 }
 
@@ -436,7 +431,7 @@ form{
     background-color: rgb(77, 116, 77);
     margin-top: 5%;
     margin-bottom: 20%;
-    margin-left: 20%;
+    margin-left: 25%;
     padding: 4% 4%;
     border-radius: 10px;
     font-family: "Urbanist";
