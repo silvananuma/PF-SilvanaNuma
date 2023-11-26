@@ -1,0 +1,24 @@
+/*HEADER*/
+@media (max-width: 768px){
+    .logo{ width: 20%;}
+    .container{ flex-wrap: initial !important;}
+    }
+    @media (max-width: 320px){
+        .logo{ width: 30%;}
+        .container{ flex-wrap: initial !important;}
+        }
+
+/*HOME*/
+        @media (max-width:768px){
+            .tarjeton{ margin-top: -5%;
+                width: 70%;
+                margin: auto;
+                }
+        }
+        @media (max-width:600px){
+            .tarjeton{
+                margin-top: -3%;
+                width: 70%;
+                margin: auto;
+            }
+        }

@@ -1,3 +1,35 @@
+/*HEADER*/
+@media (max-width: 768px) {
+  .logo {
+    width: 20%;
+  }
+  .container {
+    flex-wrap: initial !important;
+  }
+}
+@media (max-width: 320px) {
+  .logo {
+    width: 30%;
+  }
+  .container {
+    flex-wrap: initial !important;
+  }
+}
+/*HOME*/
+@media (max-width: 768px) {
+  .tarjeton {
+    margin-top: -5%;
+    width: 70%;
+    margin: auto;
+  }
+}
+@media (max-width: 600px) {
+  .tarjeton {
+    margin-top: -3%;
+    width: 70%;
+    margin: auto;
+  }
+}
 header {
   font-family: "Urbanist";
   font-weight: bold;
@@ -11,6 +43,44 @@ header {
   width: 14%;
 }
 
+footer {
+  height: 10%;
+  width: 100%;
+  font-family: "urbanist";
+  padding: 16px 10%;
+}
+
+.fondo {
+  background-color: rgb(77, 116, 77);
+}
+
+.fuente {
+  font-size: 1rem;
+}
+
+.logoig {
+  width: 30px;
+  cursor: pointer;
+}
+
+.logoface {
+  width: 30px;
+  cursor: pointer;
+}
+
+form {
+  width: 50%;
+  background-color: rgb(77, 116, 77);
+  margin-top: 5%;
+  margin-bottom: 20%;
+  margin-left: 25%;
+  padding: 4% 4%;
+  border-radius: 10px;
+  font-family: "Urbanist";
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
 * {
   margin: 0%;
   padding: 0%;
@@ -18,6 +88,13 @@ header {
 
 body {
   background-color: rgb(244, 248, 246);
+}
+
+@font-face {
+  font-family: "Urbanist";
+  src: url(/assets/Urbanist/static/Urbanist-Medium.ttf);
+  font-weight: medium;
+  font-style: medium;
 }
 
 /*# sourceMappingURL=estilo.css.map */
