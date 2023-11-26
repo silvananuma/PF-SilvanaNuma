@@ -5,7 +5,7 @@
 
 @font-face{
     font-family: "Urbanist";
-    src: url(/fuentes/Urbanist/static/Urbanist-Medium.ttf);
+    src: url(assets/Urbanist/static/Urbanist-Medium.ttf);
     font-weight:medium;
     font-style: medium;
 }
@@ -68,7 +68,7 @@ footer{
 
 .logoig{
    width: 30px;
-   cursor: pointer
+cursor: pointer
 }
 
 .logoface{
