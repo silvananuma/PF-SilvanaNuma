@@ -157,5 +157,10 @@
         margin: auto;
     }
 }
-
+@media (min-width: 320px) and (max-width: 767px){
+    form{
+        width: 100%;
+        margin: auto;
+    }
+}
 
