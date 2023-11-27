@@ -9,5 +9,20 @@ header {
 	cursor: pointer;
 	width: 14%;
 }
+li {
+	list-style: none;
+	font-size: 1rem;
+}
 
-
+.navbar-light {
+	.navbar-nav {
+		.nav-link {
+			color: #f79e45f7;
+		}
+	}
+}
+.nav-link {
+	&.active {
+		color: #f6a350f7;
+	}
+}

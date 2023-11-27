@@ -30,6 +30,64 @@
     margin: auto;
   }
 }
+@media (max-width: 768px) {
+  h1.card-title {
+    margin-top: 0%;
+  }
+}
+@media (max-width: 768px) {
+  h3.titulo {
+    margin-top: 5%;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  p {
+    margin-bottom: -1rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .kokeorigen {
+    width: 100%;
+    padding: 0%;
+    height: 269px;
+  }
+}
+/*CUIDADOS*/
+@media (max-width: 480px) {
+  h1.cuidados {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  h1.cespecial {
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .tip {
+    font-size: 1.5rem;
+  }
+}
 header {
   font-family: "Urbanist";
   font-weight: bold;
@@ -41,6 +99,19 @@ header {
 .logo {
   cursor: pointer;
   width: 14%;
+}
+
+li {
+  list-style: none;
+  font-size: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(247, 158, 69, 0.968627451);
+}
+
+.nav-link.active {
+  color: rgba(246, 163, 80, 0.968627451);
 }
 
 footer {
@@ -95,6 +166,65 @@ body {
   src: url(/assets/Urbanist/static/Urbanist-Medium.ttf);
   font-weight: medium;
   font-style: medium;
+}
+.fotohome {
+  width: 100%;
+}
+
+.tarjeton {
+  background-color: rgb(77, 116, 77);
+  margin-top: -7%;
+  width: 90%;
+  margin-left: 3%;
+}
+
+h1 {
+  padding-top: 3%;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Urbanist";
+}
+h1.card-title {
+  color: whitesmoke;
+  padding: 14% 3% 6% 3%;
+  margin-top: -25px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: -2rem;
+  font-size: 2.5rem;
+  font-family: "Urbanist";
+}
+h2.card-subtitle {
+  color: whitesmoke;
+  padding-bottom: 6%;
+}
+
+h3.titulo {
+  margin-left: 6%;
+  margin-top: 15%;
+}
+
+p {
+  text-align: left;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-size: 1rem;
+  padding: 5%;
+  line-height: 1.8rem;
+  margin-bottom: 6rem;
+}
+
+.toque {
+  font-style: italic;
+}
+
+.kokeorigen {
+  width: 100%;
+  height: 538px;
+  padding: 3%;
+  object-fit: contain;
 }
 
 /*# sourceMappingURL=estilo.css.map */

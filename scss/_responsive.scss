@@ -1,24 +1,107 @@
 /*HEADER*/
-@media (max-width: 768px){
-    .logo{ width: 20%;}
-    .container{ flex-wrap: initial !important;}
+@media (max-width: 768px) {
+    .logo {
+        width: 20%;
     }
-    @media (max-width: 320px){
-        .logo{ width: 30%;}
-        .container{ flex-wrap: initial !important;}
-        }
+
+    .container {
+        flex-wrap: initial !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .logo {
+        width: 30%;
+    }
+
+    .container {
+        flex-wrap: initial !important;
+    }
+}
 
 /*HOME*/
-        @media (max-width:768px){
-            .tarjeton{ margin-top: -5%;
-                width: 70%;
-                margin: auto;
-                }
-        }
-        @media (max-width:600px){
-            .tarjeton{
-                margin-top: -3%;
-                width: 70%;
-                margin: auto;
-            }
-        }
+@media (max-width:768px) {
+    .tarjeton {
+        margin-top: -5%;
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media (max-width:600px) {
+    .tarjeton {
+        margin-top: -3%;
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media (max-width:768px) {
+    h1.card-title {
+        margin-top: 0%;
+    }
+}
+
+@media (max-width:768px) {
+    h3.titulo {
+        margin-top: 5%;
+    }
+}
+
+@media (max-width:768px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:600px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:600px) {
+    h2 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:768px) {
+    p {
+        margin-bottom: -1rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .kokeorigen {
+        width: 100%;
+        padding: 0%;
+        height: 269px;
+    }
+}
+
+/*CUIDADOS*/
+@media(max-width:480px) {
+    h1.cuidados {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:768px) {
+    h1.cespecial {
+        margin: auto;
+    }
+}
+
+@media (max-width:768px) {
+    .tip {
+        font-size: 1.5rem;
+    }
+}
+
