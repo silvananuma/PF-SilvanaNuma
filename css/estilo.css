@@ -88,6 +88,59 @@
     font-size: 1.5rem;
   }
 }
+@media (max-width: 768px) {
+  h1.aprende {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  h1.aprende {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .t-taller {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .t-taller {
+    font-size: 1.3rem;
+    margin: auto;
+  }
+}
+@media (max-width: 320px) {
+  .t-taller {
+    font-size: 1rem;
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .tutoque {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .tutoque {
+    font-size: 1.3rem;
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  p.pt {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .card1 {
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .card-img-top {
+    margin: auto;
+  }
+}
 header {
   font-family: "Urbanist";
   font-weight: bold;
