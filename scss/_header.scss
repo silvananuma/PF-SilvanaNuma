@@ -1,7 +1,7 @@
 header {
 	font-family: "Urbanist";
 	font-weight: bold;
-	background-color: rgb(77, 116, 77);
+	background-color: $color-principal;
 	position: sticky;
 	top: 0px;
 }
@@ -17,12 +17,12 @@ li {
 .navbar-light {
 	.navbar-nav {
 		.nav-link {
-			color: #f79e45f7;
+			color: $color-secundario;
 		}
 	}
 }
 .nav-link {
 	&.active {
-		color: #f6a350f7;
+		color:$color-secundario;
 	}
 }

@@ -2,7 +2,7 @@
 	width: 100%;
 }
 .tarjeton {
-	background-color: rgb(77, 116, 77);
+	background-color:$color-principal;
 	margin-top: -7%;
 	width: 90%;
 	margin-left: 3%;
@@ -13,7 +13,7 @@ h1 {
 	font-size: 4rem;
 	font-family: "Urbanist";
 	&.card-title {
-		color: whitesmoke;
+		color:$color-texto;
 		padding: 14% 3% 6% 3%;
 		margin-top: -25px;
 	}
@@ -24,7 +24,7 @@ h2 {
 	font-size: 2.5rem;
 	font-family: "Urbanist";
 	&.card-subtitle {
-		color: whitesmoke;
+		color:$color-texto;
 		padding-bottom: 6%;
 	}
 }

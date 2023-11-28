@@ -1,6 +1,6 @@
 form {
     width: 50%;
-    background-color: rgb(77, 116, 77);
+    background-color:$color-principal;
     margin-top: 5%;
     margin-bottom: 20%;
     margin-left: 25%;
@@ -8,5 +8,24 @@ form {
     border-radius: 10px;
     font-family: "Urbanist";
     font-size: 1rem;
-    color: whitesmoke;
+    color:$color-texto;
+}
+
+h4 {
+	display: flex;
+	justify-content: center;
+}
+h5 {
+	display: flex;
+	justify-content: center;
+	padding: 3%;
+}
+
+button {
+	.btn {
+		&:hover {
+			background-color:$color-secundario;
+			cursor: pointer;
+		}
+	}
 }

@@ -19,18 +19,18 @@ h2 {
 	margin-left: 2%;
 }
 .tutoque {
-	color: #f09f1d;
+	color:$color-secundario;
 	padding-right: 1%;
 }
 .tarjeton2 {
-	background-color: rgb(88, 143, 77);
+	background-color: #588f4d;
 	border-radius: 4px;
 	width: 90%;
 	margin: auto;
 }
 p {
 	&.pt {
-		color: whitesmoke;
+		color:$color-texto;
 		text-align: left;
 		font-family: "Urbanist";
 		font-style: normal;
@@ -55,7 +55,7 @@ p {
 	padding: 5%;
 }
 .btn {
-	background-color: #f09f1d;
+	background-color:$color-secundario;
 	cursor: pointer;
 	text-transform: uppercase;
 	font-weight: bold;
