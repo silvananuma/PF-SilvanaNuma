@@ -323,7 +323,7 @@ h2 .t-taller {
 }
 
 .tutoque {
-  color: #f79e45f7;
+  color: rgba(247, 158, 69, 0.968627451);
   padding-right: 1%;
 }
 
@@ -364,7 +364,7 @@ p.pt {
 }
 
 .btn {
-  background-color: #f79e45f7;
+  background-color: rgba(247, 158, 69, 0.968627451);
   cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
