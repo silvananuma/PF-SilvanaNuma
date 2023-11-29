@@ -392,11 +392,11 @@ p.pt {
   margin-top: 4%;
 }
 
-.galeria {
-  margin-bottom: 4%;
-}
 .galeria img {
   border-radius: 5px;
+}
+.galeria img:hover img {
+  transform: scale(1.1);
 }
 
 h1.cuidados {
