@@ -24,20 +24,26 @@
   }
 }
 @media (max-width: 600px) {
-  .tarjeton {
+  .tarjeton-body {
     margin-top: -3%;
-    width: 70%;
+    width: 75%;
     margin: auto;
   }
 }
 @media (max-width: 768px) {
   h1.card-title {
     margin-top: 0%;
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 768px) {
+  h2.card-subtitle {
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 768px) {
   h3.titulo {
-    margin-top: 5%;
+    margin-top: 2rem;
   }
 }
 @media (max-width: 768px) {
@@ -62,7 +68,8 @@
 }
 @media (max-width: 768px) {
   p {
-    margin-bottom: -1rem;
+    margin-bottom: 10px !important;
+    padding: 0%;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
@@ -75,7 +82,7 @@
 /*CUIDADOS*/
 @media (max-width: 480px) {
   h1.cuidados {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 }
 @media (max-width: 768px) {
@@ -141,10 +148,19 @@
     margin: auto;
   }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 768px) {
   form {
-    width: 100%;
-    margin: auto;
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  h4 {
+    align-items: center;
+  }
+}
+@media (max-width: 320px) {
+  h4 {
+    align-items: center;
   }
 }
 header {
