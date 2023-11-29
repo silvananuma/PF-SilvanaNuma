@@ -233,19 +233,19 @@ p.pt {
 .pruebaA:hover{
   height:600px;
   width: 700px;
-  transition: all 10s;
+  transition:all 2s;
   }
   
   .pruebaA:hover{
     height:600px;
     width: 700px;
-    transition: all 2s;
+    transition:all 2s;
     }
 
   .pruebaC:hover{
     height:600px;
     width: 700px;
-    transition: all 2s;
+    transition:all 2s;
     }
 
 
