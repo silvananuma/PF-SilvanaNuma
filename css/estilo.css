@@ -1,169 +1,4 @@
-/*HEADER*/
-@media (max-width: 768px) {
-  .logo {
-    width: 20%;
-  }
-  .container {
-    flex-wrap: initial !important;
-  }
-}
-@media (max-width: 320px) {
-  .logo {
-    width: 30%;
-  }
-  .container {
-    flex-wrap: initial !important;
-  }
-}
-/*HOME*/
-@media (max-width: 768px) {
-  .tarjeton {
-    margin-top: -5%;
-    width: 70%;
-    margin: auto;
-  }
-}
-@media (max-width: 600px) {
-  .tarjeton-body {
-    margin-top: -3%;
-    width: 75%;
-    margin: auto;
-  }
-}
-@media (max-width: 768px) {
-  h1.card-title {
-    margin-top: 0%;
-    font-size: 2.5rem;
-  }
-}
-@media (max-width: 768px) {
-  h2.card-subtitle {
-    font-size: 1.8rem;
-  }
-}
-@media (max-width: 768px) {
-  h3.titulo {
-    margin-top: 2rem;
-  }
-}
-@media (max-width: 768px) {
-  h1 {
-    font-size: 3rem;
-  }
-}
-@media (max-width: 600px) {
-  h1 {
-    font-size: 2rem;
-  }
-}
-@media (max-width: 768px) {
-  h2 {
-    font-size: 1.5rem;
-  }
-}
-@media (max-width: 600px) {
-  h2 {
-    font-size: 1rem;
-  }
-}
-@media (max-width: 768px) {
-  p {
-    margin-bottom: 10px !important;
-    padding: 3%;
-  }
-}
-@media (min-width: 320px) and (max-width: 767px) {
-  .kokeorigen {
-    width: 100%;
-    padding: 0%;
-    height: 269px;
-  }
-}
-/*CUIDADOS*/
-@media (max-width: 480px) {
-  h1.cuidados {
-    font-size: 2.5rem;
-  }
-}
-@media (max-width: 768px) {
-  h1.cespecial {
-    margin: auto;
-  }
-}
-@media (max-width: 768px) {
-  .tip {
-    font-size: 1.5rem;
-  }
-}
-@media (max-width: 768px) {
-  h1.aprende {
-    font-size: 2rem;
-  }
-}
-@media (max-width: 600px) {
-  h1.aprende {
-    font-size: 1.5rem;
-  }
-}
-@media (max-width: 768px) {
-  .t-taller {
-    font-size: 1.5rem;
-  }
-}
-@media (max-width: 600px) {
-  .t-taller {
-    font-size: 1.3rem;
-    margin: auto;
-  }
-}
-@media (max-width: 320px) {
-  .t-taller {
-    font-size: 1rem;
-    margin: auto;
-  }
-}
-@media (max-width: 768px) {
-  .tutoque {
-    font-size: 1.5rem;
-  }
-}
-@media (max-width: 600px) {
-  .tutoque {
-    font-size: 1.3rem;
-    margin: auto;
-  }
-}
-@media (max-width: 768px) {
-  p.pt {
-    font-size: 1rem;
-  }
-}
-@media (max-width: 768px) {
-  .card1 {
-    margin: auto;
-  }
-}
-@media (max-width: 768px) {
-  .card-img-top {
-    margin: auto;
-  }
-}
-@media (max-width: 768px) {
-  h4 {
-    align-items: center;
-  }
-}
-@media (max-width: 320px) {
-  h4 {
-    align-items: center;
-  }
-}
-@media (max-width: 768px) {
-  form {
-    width: 100%;
-    margin: auto;
-  }
-}
+
 header {
   font-family: "Urbanist";
   font-weight: bold;
@@ -396,10 +231,62 @@ p.pt {
   border-radius: 5px;
 }
 
-.galeria img .prueba{
-  transition: all 500ms ease-out;
-  Opacity:0;}
-  
+
+.pruebaA:hover{
+height:600px;
+width:700px;
+transform: scale(1.2);
+transition: all 1s;
+} 
+
+.pruebaB:hover{
+  height:600px;
+  width:700px;
+  transform: scale(1.2);
+  transition: all 1s;
+  } 
+
+  .pruebaC:hover{
+    height:600px;
+    width:700px;
+    transform: scale(1.2);
+    transition: all 1s;
+    } 
+    
+ .pruebaD:hover{
+    width:600px;
+    transform: scale(1.2);
+    transition: all 1s;
+   }    
+
+  .pruebaE:hover{
+   width:600px;
+   transform: scale(1.2);
+   transition: all 1s;
+  }  
+
+  .pruebaF:hover{
+    width:300px;
+    transform: scale(1.2);
+    transition: all 1s;
+   }    
+
+  .pruebaG:hover{
+    width:300px;
+    transform: scale(1.2);
+    transition: all 1s;
+   }   
+   .pruebaH:hover{
+    width:300px;
+    transform: scale(1.2);
+    transition: all 1s;
+   }     
+   .pruebaI:hover{
+    width:300px;
+    transform: scale(1.2);
+    transition: all 1s;
+   }    
+
 
 h1.cuidados {
   margin-top: 4rem;
@@ -454,6 +341,171 @@ h2 {
   margin-left: 0%;
   margin-top: 3%;
   margin-bottom: -3%;
+}/*HEADER*/
+@media (max-width: 768px) {
+  .logo {
+    width: 20%;
+  }
+  .container {
+    flex-wrap: initial !important;
+  }
+}
+@media (max-width: 320px) {
+  .logo {
+    width: 30%;
+  }
+  .container {
+    flex-wrap: initial !important;
+  }
+}
+/*HOME*/
+@media (max-width: 768px) {
+  .tarjeton {
+    margin-top: -5%;
+    width: 70%;
+    margin: auto;
+  }
+}
+@media (max-width: 600px) {
+  .tarjeton-body {
+    margin-top: -3%;
+    width: 75%;
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  h1.card-title {
+    margin-top: 0%;
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 768px) {
+  h2.card-subtitle {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 768px) {
+  h3.titulo {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  p {
+    margin-bottom: 10px !important;
+    padding: 3%;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .kokeorigen {
+    width: 100%;
+    padding: 0%;
+    height: 269px;
+  }
+}
+/*CUIDADOS*/
+@media (max-width: 480px) {
+  h1.cuidados {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 768px) {
+  h1.cespecial {
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .tip {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  h1.aprende {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  h1.aprende {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .t-taller {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .t-taller {
+    font-size: 1.3rem;
+    margin: auto;
+  }
+}
+@media (max-width: 320px) {
+  .t-taller {
+    font-size: 1rem;
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .tutoque {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .tutoque {
+    font-size: 1.3rem;
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  p.pt {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .card1 {
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .card-img-top {
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  h4 {
+    align-items: center;
+  }
+}
+@media (max-width: 320px) {
+  h4 {
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  form {
+    width: 100%;
+    margin: auto;
+  }
 }
 
 .toque1 {
@@ -463,5 +515,9 @@ h2 {
 .pctip {
   margin-bottom: 1%;
 }
+
+
+
+
 
 /*# sourceMappingURL=estilo.css.map */
