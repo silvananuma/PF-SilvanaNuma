@@ -231,6 +231,25 @@ p.pt {
   border-radius: 5px;
 }
 
+.pruebaA:hover{
+  height:600px;
+  width: 400px;
+  transition: all 2s;
+  }
+  
+  .pruebaA:hover{
+    height:600px;
+    width: 400px;
+    transition: all 2s;
+    }
+
+  .pruebaC:hover{
+    height:600px;
+    width: 400px;
+    transition: all 2s;
+    }
+
+
 h1.cuidados {
   margin-top: 4rem;
   margin-bottom: 0rem;
@@ -293,6 +312,10 @@ h2 {
 .pctip {
   margin-bottom: 1%;
 }
+
+
+
+
 
 
 /*HEADER*/
