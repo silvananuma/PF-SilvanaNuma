@@ -1,5 +1,16 @@
+
+
 @mixin parrafos{
-    text-align: center;
+    text-align: left;
     font-family: "Urbanist";
     line-height: 1.8rem;
+    font-weight: 900;
+}
+
+p{
+	@include parrafos;
+	font-style: normal;
+	font-size: 1rem;
+	padding: 5%;
+	margin-bottom: 6rem;
 }
