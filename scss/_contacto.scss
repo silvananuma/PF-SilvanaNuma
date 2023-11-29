@@ -21,11 +21,12 @@ h5 {
 	padding: 3%;
 }
 
-button {
-	.btn {
-		&:hover {
-			background-color:$color-secundario;
-			cursor: pointer;
-		}
-	}
+
+button{
+	margin: 1%;
+}
+
+.btn {
+	background-color:$color-secundario;
+	box-shadow: $boton-sombra;
 }
