@@ -6,3 +6,10 @@
 .galeria img{
     border-radius: 5px;
 }
+
+.pruebaB {
+	&:hover {
+		height: 600px;
+		transition: all 2s;
+	}
+}
