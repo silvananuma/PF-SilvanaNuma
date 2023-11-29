@@ -392,11 +392,9 @@ p.pt {
   margin-top: 4%;
 }
 
-.galeria img {
+.galeria img:hover {
+  transform: scale 1.1;
   border-radius: 5px;
-}
-.galeria img:hover img {
-  transform: scale(1.1);
 }
 
 h1.cuidados {
