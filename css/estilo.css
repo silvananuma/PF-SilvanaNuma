@@ -1,10 +1,25 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
 
+body {
+  background-color: #f4f8f6;
+}
+
+@font-face {
+  font-family: "Urbanist";
+  src: url(/assets/Urbanist/static/Urbanist-Medium.ttf);
+  font-weight: medium;
+  font-style: medium;
+}
 header {
   font-family: "Urbanist";
   font-weight: bold;
   background-color: #4d744d;
   position: sticky;
   top: 0px;
+  z-index: 10;
 }
 
 .logo {
@@ -50,54 +65,6 @@ footer {
   cursor: pointer;
 }
 
-form {
-  width: 50%;
-  background-color: #4d744d;
-  margin-top: 5%;
-  margin-bottom: 20%;
-  margin-left: 25%;
-  padding: 4% 4%;
-  border-radius: 10px;
-  font-family: "Urbanist";
-  font-size: 1rem;
-  color: #f5f5f5;
-}
-
-h4 {
-  display: flex;
-  justify-content: center;
-}
-
-h5 {
-  display: flex;
-  justify-content: center;
-  padding: 3%;
-}
-
-button {
-  margin: 1%;
-}
-
-.btn {
-  background-color: rgba(247, 158, 69, 0.968627451);
-  box-shadow: 1px 3px 1px 1px rgba(248, 232, 215, 0.4);
-}
-
-* {
-  margin: 0%;
-  padding: 0%;
-}
-
-body {
-  background-color: #f4f8f6;
-}
-
-@font-face {
-  font-family: "Urbanist";
-  src: url(/assets/Urbanist/static/Urbanist-Medium.ttf);
-  font-weight: medium;
-  font-style: medium;
-}
 .fotohome {
   width: 100%;
 }
@@ -152,6 +119,83 @@ p {
   width: 100%;
   height: 459px;
   padding: 3%;
+}
+
+.t-galeria {
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+
+.galeria img {
+  border-radius: 5px;
+}
+
+.efectoHover:hover {
+  scale: 1.1;
+  transition: all 1s ease-in;
+}
+
+h1.cuidados {
+  margin-top: 4rem;
+  margin-bottom: 0rem;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  font-family: "Urbanist";
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card2 {
+  padding: 1%;
+  margin: 1% 2;
+}
+
+.card-body2 {
+  text-align: center;
+}
+
+.card-title2 {
+  color: #dc143c;
+  font-weight: bold;
+}
+
+.card-text2 {
+  text-align: center;
+}
+
+.card-img-top-c {
+  width: 100%;
+  align-items: center;
+  padding: 3%;
+}
+
+.textColor {
+  padding-left: 0.5%;
+  color: #dc143c;
+  text-decoration: underline;
+}
+
+.tip {
+  padding: 2%;
+  margin-left: 0%;
+  margin-top: 3%;
+  margin-bottom: -3%;
+}
+
+.toque1 {
+  color: #dc143c;
+}
+
+.pctip {
+  margin-bottom: 1%;
 }
 
 h1.aprende {
@@ -222,100 +266,38 @@ p.pt {
   font-weight: bold;
 }
 
-.t-galeria {
-  margin-bottom: 4%;
-  margin-top: 4%;
-}
-
-.galeria img {
-  border-radius: 5px;
-}
-.pruebaA:hover{
-  height:600px;
-  width: 700px;
-  transition:all 2s;
-  }
-  
-  .pruebaA:hover{
-    height:600px;
-    width: 700px;
-    transition:all 2s;
-    }
-
-  .pruebaC:hover{
-    height:600px;
-    width: 700px;
-    transition:all 2s;
-    }
-
-
-h1.cuidados {
-  margin-top: 4rem;
-  margin-bottom: 0rem;
-}
-
-h2 {
-  text-align: center;
-  margin-top: 1rem;
-  font-size: 2.5rem;
+form {
+  width: 50%;
+  background-color: #4d744d;
+  margin-top: 5%;
+  margin-bottom: 20%;
+  margin-left: 25%;
+  padding: 4% 4%;
+  border-radius: 10px;
   font-family: "Urbanist";
+  font-size: 1rem;
+  color: #f5f5f5;
 }
 
-.row {
+h4 {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.card2 {
-  padding: 1%;
-  margin: 1% 2;
-}
-
-.card-body2 {
-  text-align: center;
-}
-
-.card-title2 {
-  color: #dc143c;
-  font-weight: bold;
-}
-
-.card-text2 {
-  text-align: center;
-}
-
-.card-img-top-c {
-  width: 100%;
-  align-items: center;
+h5 {
+  display: flex;
+  justify-content: center;
   padding: 3%;
 }
 
-.textColor {
-  padding-left: 0.5%;
-  color: #dc143c;
-  text-decoration: underline;
+button {
+  margin: 1%;
 }
 
-.tip {
-  padding: 2%;
-  margin-left: 0%;
-  margin-top: 3%;
-  margin-bottom: -3%;
+.btn {
+  background-color: rgba(247, 158, 69, 0.968627451);
+  box-shadow: 1px 3px 1px 1px rgba(248, 232, 215, 0.4);
 }
-
-.toque1 {
-  color: #dc143c;
-}
-
-.pctip {
-  margin-bottom: 1%;
-}
-
-
-
-
-
 
 /*HEADER*/
 @media (max-width: 768px) {
@@ -483,6 +465,5 @@ h2 {
     margin: auto;
   }
 }
-
 
 /*# sourceMappingURL=estilo.css.map */

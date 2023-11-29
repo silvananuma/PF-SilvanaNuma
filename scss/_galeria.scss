@@ -7,9 +7,10 @@
     border-radius: 5px;
 }
 
-.pruebaB {
+.efectoHover{
 	&:hover {
-		height: 600px;
-		transition: all 2s;
+		scale:1.1;
+		transition: all 1s ease-in;
 	}
 }
+
