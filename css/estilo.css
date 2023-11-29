@@ -227,66 +227,9 @@ p.pt {
   margin-top: 4%;
 }
 
-.galeria img{
+.galeria img {
   border-radius: 5px;
 }
-
-
-.pruebaA:hover{
-height:600px;
-width:700px;
-transform: scale(1.2);
-transition: all 1s;
-} 
-
-.pruebaB:hover{
-  height:600px;
-  width:700px;
-  transform: scale(1.2);
-  transition: all 1s;
-  } 
-
-  .pruebaC:hover{
-    height:600px;
-    width:700px;
-    transform: scale(1.2);
-    transition: all 1s;
-    } 
-    
- .pruebaD:hover{
-    width:600px;
-    transform: scale(1.2);
-    transition: all 1s;
-   }    
-
-  .pruebaE:hover{
-   width:600px;
-   transform: scale(1.2);
-   transition: all 1s;
-  }  
-
-  .pruebaF:hover{
-    width:300px;
-    transform: scale(1.2);
-    transition: all 1s;
-   }    
-
-  .pruebaG:hover{
-    width:300px;
-    transform: scale(1.2);
-    transition: all 1s;
-   }   
-   .pruebaH:hover{
-    width:300px;
-    transform: scale(1.2);
-    transition: all 1s;
-   }     
-   .pruebaI:hover{
-    width:300px;
-    transform: scale(1.2);
-    transition: all 1s;
-   }    
-
 
 h1.cuidados {
   margin-top: 4rem;
@@ -341,7 +284,18 @@ h2 {
   margin-left: 0%;
   margin-top: 3%;
   margin-bottom: -3%;
-}/*HEADER*/
+}
+
+.toque1 {
+  color: #dc143c;
+}
+
+.pctip {
+  margin-bottom: 1%;
+}
+
+
+/*HEADER*/
 @media (max-width: 768px) {
   .logo {
     width: 20%;
@@ -507,17 +461,6 @@ h2 {
     margin: auto;
   }
 }
-
-.toque1 {
-  color: #dc143c;
-}
-
-.pctip {
-  margin-bottom: 1%;
-}
-
-
-
 
 
 /*# sourceMappingURL=estilo.css.map */
