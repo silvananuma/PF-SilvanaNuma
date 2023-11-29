@@ -392,10 +392,14 @@ p.pt {
   margin-top: 4%;
 }
 
-.galeria img:hover {
-  transform: scale 1.1;
+.galeria img{
   border-radius: 5px;
 }
+
+.galeria img .prueba{
+  transition: all 500ms ease-out;
+  Opacity:0;}
+  
 
 h1.cuidados {
   margin-top: 4rem;

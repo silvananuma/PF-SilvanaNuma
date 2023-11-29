@@ -3,17 +3,6 @@
 	margin-top: 4%;
 }
 
-.galeria {
-	img {
-		&:hover {
-			transform: scale (1.1);
-			border-radius: 5px;
-		}
-	}
-}
-
-.prueba {
-	&:hover {
-		transform: scale (1.1);
-	}
+.galeria img{
+    border-radius: 5px;
 }
