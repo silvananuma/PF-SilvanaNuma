@@ -30,3 +30,16 @@ button{
 	background-color:$color-secundario;
 	box-shadow: $boton-sombra;
 }
+
+.agradecimiento{
+    width: 30%;
+    background-color:$color-principal;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    margin-left: 25%;
+    padding: 4% 4%;
+    border-radius: 10px;
+    font-family: "Urbanist";
+    font-size: 1rem;
+    color:$color-texto;
+}
