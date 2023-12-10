@@ -305,21 +305,16 @@ h5 {
   display: flex;
   justify-content: center;
   padding: 3%;
-  text-decoration: none;
 }
 
-.logito {
-  height: 100px;
-  width: 100px;
-}
-
-button {
-  margin: 1%;
+.button {
+  margin: 2%;
 }
 
 .btn {
   background-color: rgba(247, 158, 69, 0.968627451);
   box-shadow: 1px 3px 1px 1px rgba(248, 232, 215, 0.4);
+  margin: 2%;
 }
 
 /*HEADER*/
@@ -480,6 +475,24 @@ button {
     width: 100%;
     margin: auto;
   }
+}
+.agradecimiento {
+  width: 70%;
+  background-color: #4d744d;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  margin-left: 15%;
+  padding: 4% 4%;
+  border-radius: 10px;
+  font-family: "Urbanist";
+  font-size: 1rem;
+  color: #f5f5f5;
+}
+
+.volver {
+  text-decoration: none;
+  color: rgba(247, 158, 69, 0.968627451);
+  font-weight: bolder;
 }
 
 /*# sourceMappingURL=estilo.css.map */
