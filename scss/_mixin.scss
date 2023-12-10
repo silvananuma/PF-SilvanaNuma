@@ -1,13 +1,11 @@
-
-
-@mixin parrafos{
-    text-align: left;
-    font-family: "Urbanist";
-    line-height: 1.8rem;
-    font-weight: 900;
+@mixin parrafos {
+	text-align: left;
+	font-family: "Urbanist";
+	line-height: 1.8rem;
+	font-weight: 900;
 }
 
-p{
+p {
 	@include parrafos;
 	font-style: normal;
 	font-size: 1rem;

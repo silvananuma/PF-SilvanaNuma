@@ -1,23 +1,24 @@
 footer {
-	height: 10%;
-	width: 100%;
-	font-family: "urbanist";
-	padding: 16px 10%;
+    height: 10%;
+    width: 100%;
+    font-family: "urbanist";
+    padding: 16px 10%;
 }
 
-.fondo{
-    background-color:$color-principal;  
+.fondo {
+    background-color: $color-principal;
 }
-.fuente{
+
+.fuente {
     font-size: 1rem;
 }
 
-.logoig{
-   width: 30px;
-   cursor: pointer
+.logoig {
+    width: 30px;
+    cursor: pointer
 }
 
-.logoface{
+.logoface {
     width: 30px;
-    cursor: pointer   
+    cursor: pointer
 }

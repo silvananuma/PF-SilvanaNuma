@@ -1,8 +1,6 @@
-
-
-.agradecimiento{
-    width:70%;
-    background-color:$color-principal;
+.agradecimiento {
+    width: 70%;
+    background-color: $color-principal;
     margin-top: 10%;
     margin-bottom: 20%;
     margin-left: 15%;
@@ -10,11 +8,11 @@
     border-radius: 10px;
     font-family: "Urbanist";
     font-size: 1rem;
-    color:$color-texto;
+    color: $color-texto;
 }
 
-.volver{
+.volver {
     text-decoration: none;
-    color:$color-secundario;
+    color: $color-secundario;
     font-weight: bolder;
 }

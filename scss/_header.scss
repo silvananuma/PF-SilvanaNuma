@@ -6,10 +6,12 @@ header {
 	top: 0px;
 	z-index: 10;
 }
+
 .logo {
 	cursor: pointer;
 	width: 14%;
 }
+
 li {
 	list-style: none;
 	font-size: 1rem;
@@ -22,8 +24,9 @@ li {
 		}
 	}
 }
+
 .nav-link {
 	&.active {
-		color:$color-secundario;
+		color: $color-secundario;
 	}
 }

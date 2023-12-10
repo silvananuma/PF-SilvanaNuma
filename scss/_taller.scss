@@ -3,34 +3,40 @@ h1 {
 		font-size: 3rem;
 	}
 }
+
 .t-taller {
 	padding: 6%;
 	font-size: 2rem;
 }
+
 h2 {
 	.t-taller {
 		display: none;
 		align-items: center;
 	}
 }
+
 .taller {
 	height: 187px;
 	margin-right: 4%;
 	margin-left: 2%;
 }
+
 .tutoque {
-	color:$color-secundario;
+	color: $color-secundario;
 	padding-right: 1%;
 }
+
 .tarjeton2 {
 	background-color: #588f4d;
 	border-radius: 4px;
 	width: 90%;
 	margin: auto;
 }
+
 p {
 	&.pt {
-		color:$color-texto;
+		color: $color-texto;
 		text-align: left;
 		font-family: "Urbanist";
 		font-style: normal;
@@ -39,23 +45,28 @@ p {
 		line-height: 1.8rem;
 	}
 }
+
 .informacion {
 	display: flex;
 	justify-content: center;
 	padding: 4%;
 }
+
 .card1 {
 	padding: 4%;
 }
+
 .card-img-top {
 	height: 180px;
 	width: 286px;
 }
+
 .botonTaller {
 	padding: 5%;
 }
+
 .btn {
-	background-color:$color-secundario;
+	background-color: $color-secundario;
 	cursor: pointer;
 	text-transform: uppercase;
 	font-weight: bold;

@@ -1,6 +1,6 @@
 form {
     width: 50%;
-    background-color:$color-principal;
+    background-color: $color-principal;
     margin-top: 5%;
     margin-bottom: 20%;
     margin-left: 25%;
@@ -8,26 +8,27 @@ form {
     border-radius: 10px;
     font-family: "Urbanist";
     font-size: 1rem;
-    color:$color-texto;
+    color: $color-texto;
 }
 
 h4 {
-	display: flex;
-	justify-content: center;
-}
-h5 {
-	display: flex;
-	justify-content: center;
-	padding: 3%;
+    display: flex;
+    justify-content: center;
 }
 
-.button{
-	margin: 2%;
+h5 {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.button {
+    margin: 2%;
 }
 
 .btn {
-	background-color:$color-secundario;
-	box-shadow: $boton-sombra;
+    background-color: $color-secundario;
+    box-shadow: $boton-sombra;
     margin: 2%;
     ;
 }
